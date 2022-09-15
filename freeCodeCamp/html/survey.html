@@ -1,0 +1,38 @@
+<div id="main" class="main">
+  <div class="pic"></div>
+  <h1 id="title">Save The Planet!</h1>
+  <p id="description">Submit <u>now</u> to learn how <u>you can help <b>save Earth</b></u>. </p>
+  <form id="survey-form"><h2 class="survey-title"><b><u>Survey Form</u></b></h2>
+    <label for="name" id="name-label">Name</label><input id="name" placeholder="Enter Your Name" required>
+    <label for="email" id="email-label">Email</label><input id="email" type="email" placeholder="example@email.com" required>
+    <label for="number" id="number-label">Age</label><input id="number" type="number" placeholder="Age (optional)" min="8" max="120">
+    <label for="occupation" id="dropdown-label">Occupation</label>
+    <select id="dropdown" name="occupation">
+      <option value="student">Student</option>
+      <option value="full-time-job">Full Time Job</option>
+      <option value="full-time-learner">Full Time Learner</option>
+      <option value="prefer-not">Prefer Not To Say</option>
+      <option value="other">Other</option>
+    </select>
+    <fieldset class="box" name="interests">
+      <legend>Interests</legend>
+      <label for="donation">Donation</label>
+      <input type="checkbox" name="donation" value="donation" checked></input>
+      <label for="volunteer">Volunteer</label>
+      <input type="checkbox" name="volunteer" value="volunteer"></input>
+      <label for="collab">Collaboration</label>
+      <input type="checkbox" name="collab" value="collab"></input>
+      <label for="other">Other</label>
+      <input type="text" name="other"></input>
+    </fieldset>
+    <fieldset class="box" id="news" name="news">
+      <legend>Receive News?</legend>
+       <input type="radio" name="news" value="yes" checked><label for="news-yes">Yes</label>
+      <input type="radio" name="news" value="no"><label for="news-yes">No</label>
+    </fieldset>
+    <label for="notes">Comment</label>
+    <textarea id="notes" placeholder="Leave us a note! :)"></textarea>
+    <button class="submit" id="submit" type="submit">Submit</button>
+  </form>
+  
+</div>

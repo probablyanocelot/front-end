@@ -1,0 +1,53 @@
+/* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+body {
+    margin: 0;
+    background: grey;
+}
+
+.nav-div nav {
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: salmon;
+    overflow-x: hidden;
+    border-right: solid;
+}
+
+.nav-div a,
+.nav-div header {
+    color: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid;
+    border-color: grey;
+}
+
+.nav-link {
+    display: block;
+}
+
+.nav-link:hover {
+    color: gray;
+    transition-duration: 0.5s;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    margin: 0;
+}
+
+main header {
+    align-items: center;
+}

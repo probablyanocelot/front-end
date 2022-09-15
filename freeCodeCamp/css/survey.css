@@ -1,0 +1,82 @@
+.main {
+    display: flex;
+    flex: 0 1 auto;
+    background-image: url("https://www.nature.com/immersive/d41586-021-00095-y/assets/mhyLY1FyCz/2021-01-xx_jan-iom_tree-of-life_sh-1080x1440.jpeg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    color: white;
+    margin-bottom: 5px;
+}
+
+#description {
+    color: white;
+}
+
+#survey-form {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #cccccc;
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#survey-form h2 {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 5px;
+}
+
+#survey-form label {
+    display: block;
+    padding: 10px 10px 5px 10px;
+    margin: auto;
+}
+
+#survey-form select {
+    padding: 5px;
+}
+
+#dropdown {
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#news label,
+input {
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 0px;
+}
+
+#notes {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    padding: 10px;
+    margin-top: 10px;
+}

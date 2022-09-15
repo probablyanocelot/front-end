@@ -1,0 +1,58 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgray;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 700%;
+    margin-bottom: 40px;
+}
+
+main .pre {
+    font-size: 180%;
+    text-align: center;
+    max-width: 650px;
+    padding-bottom: 20px;
+    margin-top: -5px;
+}
+
+#img-div {
+    text-align: center;
+    flex: 0 1 auto;
+    padding: 20px;
+    padding-bottom: 5px;
+    background: white;
+    margin: 10px;
+    background-clip: border-box;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+}
+
+#image {
+    max-width: 1000px;
+    min-width: 400px;
+}
+
+#img-caption {
+    /*   max-width: 395px; */
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    background: white;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    flex: 0 0 auto;
+}

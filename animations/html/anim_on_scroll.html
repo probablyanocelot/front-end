@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- https://www.youtube.com/watch?v=gDMa3xJ6xqg -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll to See 'The Magic' Again</title>
+    <link rel="stylesheet" href="../css/anim_on_scroll.css">
+</head>
+<body>
+    <section class="banner">
+        <video src="../lightning.mp4" autoplay muted loop></video>
+    </section>
+    <div class="container">
+        <h2>Scroll to See 'The Magic' Again</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi dolores amet saepe corrupti repellendus. Iusto, dicta perspiciatis. Architecto, magni esse velit exercitationem inventore quibusdam eum beatae vitae, voluptatibus nemo, rerum vel autem sint possimus repellat. Amet, cum, facilis explicabo, possimus unde aspernatur laboriosam debitis perferendis sit eos nobis eius? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi dolores amet saepe corrupti repellendus. Iusto, dicta perspiciatis. Architecto, magni esse velit exercitationem inventore quibusdam eum beatae vitae, voluptatibus nemo, rerum vel autem sint possimus repellat. Amet, cum, facilis explicabo, possimus unde aspernatur laboriosam debitis perferendis sit eos nobis eius? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi dolores amet saepe corrupti repellendus. Iusto, dicta perspiciatis. Architecto, magni esse velit exercitationem inventore quibusdam eum beatae vitae, voluptatibus nemo, rerum vel autem sint possimus repellat. Amet, cum, facilis explicabo, possimus unde aspernatur laboriosam debitis perferendis sit eos nobis eius?</p>
+    </div>
+    <script type="text/javascript">
+        const banner = document.querySelector('.banner');
+        window.addEventListener('scroll', function() {
+            const value = 800 - window.scrollY;
+            banner.style.clipPath = "circle("+ value +"px at center center)";
+        })
+    </script>
+</body>
+</html>
